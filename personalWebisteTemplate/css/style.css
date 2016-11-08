@@ -242,7 +242,7 @@ a:focus, a:hover {
 }
 
 .ch-info-back h3 a:hover {
-	color: #22ffb9;
+	color: #FFF;
 }
 
 /*-- //Navigation --*/
@@ -1055,9 +1055,13 @@ form.contact_form {
 
 
 /*-- Footer --*/
+.footer {
+	height: 170px;
+	background-color: #c40707;
+}
 
 .copyright {
-	margin: 50px 0;
+	margin: 10px 0;
 	text-align: center;
 }
 
