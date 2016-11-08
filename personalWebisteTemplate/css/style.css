@@ -582,7 +582,7 @@ a:focus, a:hover {
 	width: 14%;
 }
 
-#myList li{ 
+#myList li{
 	display: none;
 	list-style-type: none;
 	/*--w3layouts--*/
@@ -961,7 +961,7 @@ ul.simplefilter {
 /*-- Contact --*/
 
 .contact {
-	background: url("../images/contact.jpg");
+	/*background: url("../images/contact-bgimage.jpg");*/
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
