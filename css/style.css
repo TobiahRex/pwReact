@@ -1265,6 +1265,9 @@ form.contact_form {
 	.header h2 {
 		top: 50%;
 	}
+	.headerImage {
+		width: 905px;
+	}
 	.agileabout-grid-1 h3 {
 		width: 31%;
 	}
