@@ -1060,7 +1060,8 @@ form.contact_form {
 .more_btn {
 	width: 400px;
 	height: 70px;
-	padding: 13px 30px;
+	text-align: center;
+	padding: 23px;
 	border: 1px solid #d5d5d5;
 	font-size: 2vh;
 	color: #FFF;
@@ -1704,8 +1705,9 @@ form.contact_form {
 		margin-bottom: 10px;
 	}
 	.more_btn {
-		padding: 10px 30px;
 		font-size: 15px;
+		text-align: center;
+		padding: 23px;
 	}
 }
 
@@ -2136,8 +2138,10 @@ form.contact_form {
 		margin-top: 55px;
 	}
 	.more_btn {
-		padding: 7px 20px;
+		/*padding: 7px 20px;*/
 		font-size: 14px;
+		text-align: center;
+		padding: 23px;
 	}
 	.copyright {
 		margin: 20px 0;
