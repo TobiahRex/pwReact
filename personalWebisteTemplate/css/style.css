@@ -1187,6 +1187,9 @@ form.contact_form {
 	}
 	.navigation {
 		top: 70%;
+		
+		position: fixed;
+		top: 0;
 	}
 	.header h2 {
 		top: 51%;
