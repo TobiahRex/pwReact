@@ -2150,6 +2150,7 @@ form.contact_form {
 @media screen and (max-width: 414px) {
 	.header img {
 		height: 250px;
+		width: 322px;
 	}
 	.header h1 {
 		padding: 10px 0;
