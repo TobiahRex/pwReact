@@ -1043,14 +1043,26 @@ form.contact_form {
 	text-align: center;
 }
 
+#contactContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#contactMsg {
+	align-self: center;
+}
+
 .message {
 	margin-bottom: 30px;
 }
 
 .more_btn {
+	width: 400px;
+	height: 70px;
 	padding: 13px 30px;
 	border: 1px solid #d5d5d5;
-	font-size: 16px;
+	font-size: 2vh;
 	color: #FFF;
 	background-color: rgba(0, 0, 0, 0.8);
 	text-decoration: none;
