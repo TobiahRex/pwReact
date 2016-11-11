@@ -971,7 +971,14 @@ ul.simplefilter {
 }
 
 /*-- //Clients --*/
+.blogContainer {
+	display: flex;
+	flex-direction: column;
+}
 
+.blogFrame {
+	align-self: center;
+}
 
 
 /*-- Contact --*/
