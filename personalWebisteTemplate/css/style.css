@@ -80,7 +80,16 @@ a:focus, a:hover {
 
 
 
+.headerContainer {
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+}
 
+.headerImage {
+	align-self: flex-end;
+	width: 1115.39px;
+}
 
 .header {
 	position: relative;
@@ -858,6 +867,9 @@ ul.simplefilter {
 }
 
 @media(max-width:414px) {
+	.headerImage {
+		width: 322.5px;
+	}
 	ul.simplefilter {
 		margin-bottom: 0em;
 	}
