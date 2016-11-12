@@ -1373,6 +1373,7 @@ form.contact_form {
 	.agileabout-grid-2-image {
 		width: 80%;
 		left: 15%;
+		top: 0px
 	}
 	.agileabout-grid-3 ul li .li1 {
 		width: 20%;
@@ -1524,8 +1525,9 @@ form.contact_form {
 		width: 14%;
 	}
 	.agileabout-grid-2-image {
-		width: 60%;
+		width: 50%;
 		left: 15%;
+		top: -30px;
 	}
 	.agileabout-grid-3 h3 {
 		width: 27%;
