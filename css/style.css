@@ -843,14 +843,32 @@ ul.simplefilter {
 }
 
 @media(max-width:768px) {
+	.resp-tab-item {
+		font-size: 11px;
+	}
 	.filtr-item {
 		float: left;
+		width: 50%;
+	}
+	.agileabout-grid-2-image {
 		width: 50%;
 	}
 	.simplefilter li, .multifilter li, .sortandshuffle li {
 		padding: 8px 10px;
 		font-size: 0.9em;
 		letter-spacing: 0px;
+	}
+	.col-xs-offset-2 {
+		margin-left: 25%;
+	}
+	#contactMsg {
+		text-align: center;
+	}
+	#toTop {
+		margin-right: 5px;
+	}
+	.w3lsstatsaits-info p {
+		font-size: 14px;
 	}
 }
 
@@ -864,9 +882,33 @@ ul.simplefilter {
 	.simplefilter li, .multifilter li, .sortandshuffle li {
 		margin-bottom: 1em;
 	}
+	#toTop {
+		margin-right: 30px;
+	}
 }
 
 @media(max-width:414px) {
+	.headerImage {
+		width: 322.5px;
+	}
+	ul.simplefilter {
+		margin-bottom: 0em;
+	}
+	.filtr-item {
+		width: 100%;
+	}
+	.simplefilter li, .multifilter li, .sortandshuffle li {
+		padding: 4px 4px;
+		font-size: 0.8em;
+		letter-spacing: 0px;
+		margin-bottom: 1em;
+	}
+}
+
+@media(max-width:324px) {
+	body {
+		width: 343px;
+	}
 	.headerImage {
 		width: 322.5px;
 	}
@@ -1183,6 +1225,7 @@ form.contact_form {
 
 
 @media screen and (max-width: 1920px) {
+
 	.header h1 {
 		top: 25%;
 	}
@@ -1198,7 +1241,7 @@ form.contact_form {
 	}
 	.agileabout-grid-2-image {
 		width: 55%;
-		top: -105px;
+		top: -60px;
 	}
 	.agileabout-grid-1 h3 {
 		width: 22%;
@@ -1276,8 +1319,8 @@ form.contact_form {
 		width: 30%;
 	}
 	.agileabout-grid-2-image {
-		width: 70%;
-		/*top: -30px;*/
+		width: 60%;
+		top: -50px;
 	}
 	.agileabout-grid-3 ul li .li3 {
 		padding-top: 0;
@@ -2411,6 +2454,9 @@ form.contact_form {
 }
 
 @media screen and (max-width: 320px) {
+	body {
+		width: 360px;
+	}
 	.header img {
 		height: 215px;
 	}
@@ -2450,7 +2496,7 @@ form.contact_form {
 		width: 35%;
 	}
 	.agileabout-grid-2-image {
-		width: 70%;
+		width: 55%;
 		left: 15%;
 		top: -165px;
 	}
@@ -2528,6 +2574,12 @@ form.contact_form {
 	}
 	.portfolio figcaption h3 {
 		margin-top: 80px;
+	}
+	.footer {
+		width: 360px;
+	}
+	#toTop {
+		margin-right: 20px
 	}
 }
 
