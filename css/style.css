@@ -2329,6 +2329,9 @@ form.contact_form {
 	.work-info h5.sch {
 		right: 22%;
 	}
+	div.b_tooltip {
+		left: 91%;
+	}
 	#loadMore, #showLess {
 		width: 35%;
 	}
