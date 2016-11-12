@@ -1339,6 +1339,48 @@ form.contact_form {
 }
 
 @media screen and (max-width: 1080px) {
+	.ch-info .ch-info-front {
+		-webkit-transition: none;
+		-moz-transition: none;
+		-o-transition: none;
+		-ms-transition: none;
+		transition: none;
+	}
+
+	.ch-info .ch-info-back {
+		opacity: 0;
+		background: rgba(0, 0, 0, 0.5);
+		pointer-events: none;
+		-webkit-transform: none;
+		-moz-transform: none;
+		-o-transform: none;
+		-ms-transform: none;
+		transform: none;
+		-webkit-transition: none;
+		-moz-transition: none;
+		-o-transition: none;
+		-ms-transition: none;
+		transition: none;
+	}
+
+	.ch-item:hover .ch-info-front {
+		-webkit-transform: none;
+		-moz-transform: none;
+		-o-transform: none;
+		-ms-transform: none;
+		transform: none;
+		opacity: 0;
+	}
+
+	.ch-item:hover .ch-info-back {
+		-webkit-transform: none;
+		-moz-transform: none;
+		-o-transform: none;
+		-ms-transform: none;
+		transform: none;
+		opacity: 1;
+		pointer-events: auto;
+	}
 	.header h1 {
 		width: 75%;
 		font-size: 60px;
