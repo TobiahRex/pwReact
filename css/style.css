@@ -1802,6 +1802,7 @@ form.contact_form {
 }
 
 @media screen and (max-width: 736px) {
+
 	.header h1 {
 		width: 70%;
 	}
@@ -1922,7 +1923,7 @@ form.contact_form {
 		width: 36%;
 	}
 	.bar_group__bar.thin {
-		margin-bottom: 1em !important;
+		margin-bottom: 1em;
 	}
 	.aitsresumewthree h4.title {
 		width: 25%;
@@ -2242,6 +2243,9 @@ form.contact_form {
 }
 
 @media screen and (max-width: 414px) {
+	body {
+		width: 402px;
+	}
 	.header img {
 		height: 250px;
 		width: 322px;
@@ -2458,10 +2462,10 @@ form.contact_form {
 
 @media screen and (max-width: 320px) {
 	body {
-		width: 360px;
+		width: 320px;
 	}
 	.header img {
-		height: 215px;
+		height: 253px;
 	}
 	.header h1 {
 		padding: 8px 0;
@@ -2479,6 +2483,9 @@ form.contact_form {
 	.navigation {
 		margin-left: -30px;
 		top: 20%;
+	}
+	.nav-grids {
+		margin-left: 40px;
 	}
 	.agileabout, .wthreeskills, .aitsresumewthree, .portfolio, .agileinfosclients, .contact {
 		padding: 30px 0;
@@ -2499,8 +2506,8 @@ form.contact_form {
 		width: 35%;
 	}
 	.agileabout-grid-2-image {
-		width: 55%;
-		left: 15%;
+		width: 155px;
+		left: 22%;
 		top: -165px;
 	}
 	.agileabout-grid-3 h3 {
@@ -2516,7 +2523,7 @@ form.contact_form {
 		padding: 5px 0;
 	}
 	.resp-tab-item span {
-		font-size: 13px;
+		font-size: 11px;
 		letter-spacing: 0;
 	}
 	.resp-tab-content p {
@@ -2568,6 +2575,12 @@ form.contact_form {
 	.work-left2 {
 		height: 150px;
 	}
+	.bar_group_bar.thin {
+		margin-bottom: 1em;
+	}
+	div.b_tooltip {
+		left: 91%;
+	}
 	#loadMore, #showLess {
 		width: 44%;
 	}
@@ -2578,11 +2591,17 @@ form.contact_form {
 	.portfolio figcaption h3 {
 		margin-top: 80px;
 	}
+	.more_btn {
+		width: 320px;
+	}
+	.ch-grid {
+		margin-left: -35px;
+	}
 	.footer {
-		width: 360px;
+		width: 320px;
 	}
 	#toTop {
-		margin-right: 20px
+		margin-right: 15px;
 	}
 }
 
