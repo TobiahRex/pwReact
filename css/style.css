@@ -537,6 +537,7 @@ a:focus, a:hover {
 		position: relative;
 		float: left;
 		left: 100%;
+		top: -28px;
 		padding: 4px 10px 7px 10px;
 		background-color: #000;
 		-webkit-transform: translate3d(-50%) translateY(-30px);
@@ -2330,6 +2331,7 @@ form.contact_form {
 		right: 22%;
 	}
 	div.b_tooltip {
+		top: -28px;
 		left: 91%;
 	}
 	#loadMore, #showLess {
@@ -2582,6 +2584,7 @@ form.contact_form {
 		margin-bottom: 1em;
 	}
 	div.b_tooltip {
+		top: -28px;
 		left: 91%;
 	}
 	#loadMore, #showLess {
