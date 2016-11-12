@@ -191,10 +191,10 @@ a:focus, a:hover {
 }
 
 .ch-info .ch-info-front {
-	-webkit-transition: all 0.6s ease-in-out !important;
-	-moz-transition: all 0.6s ease-in-out !important;
-	-o-transition: all 0.6s ease-in-out !important;
-	-ms-transition: all 0.6s ease-in-out !important;
+	-webkit-transition: all 0.6s ease-in-out;
+	-moz-transition: all 0.6s ease-in-out;
+	-o-transition: all 0.6s ease-in-out;
+	-ms-transition: all 0.6s ease-in-out;
 	/*transition: all 0.6s ease-in-out;*/
 }
 
@@ -206,7 +206,7 @@ a:focus, a:hover {
 	-moz-transform: scale(1.5);
 	-o-transform: scale(1.5);
 	-ms-transform: scale(1.5);
-	transform: scale(1.5);
+	/*transform: scale(1.5);*/
 	-webkit-transition: all 0.4s ease-in-out 0.2s;
 	-moz-transition: all 0.4s ease-in-out 0.2s;
 	-o-transition: all 0.4s ease-in-out 0.2s;
@@ -219,7 +219,7 @@ a:focus, a:hover {
 	-moz-transform: scale(0);
 	-o-transform: scale(0);
 	-ms-transform: scale(0);
-	transform: scale(0);
+	/*transform: scale(0);*/
 	opacity: 0;
 }
 
@@ -539,11 +539,11 @@ a:focus, a:hover {
 		left: 100%;
 		padding: 4px 10px 7px 10px;
 		background-color: #000;
-		-webkit-transform: translateX(-50%) translateY(-30px);
-		-ms-transform: translateX(-50%) translateY(-30px);
-		transform: translateX(-50%) translateY(-30px);
-		-moz-transform: translateX(-50%) translateY(-30px);
-		-o-transform: translateX(-50%) translateY(-30px);
+		-webkit-transform: translate3d(-50%) translateY(-30px);
+		-ms-transform: translate3d(-50%) translateY(-30px);
+		transform: translate3d(-50%) translateY(-30px);
+		-moz-transform: translate3d(-50%) translateY(-30px);
+		-o-transform: translate3d(-50%) translateY(-30px);
 		-webkit-border-radius: 2px;
 		border-radius: 2px;
 		-moz-border-radius: 2px;
