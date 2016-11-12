@@ -840,6 +840,9 @@ ul.simplefilter {
 		padding: 10px 13px;
 		font-size: 1em;
 	}
+	.w3lsstatsaits-info p {
+		font-size: 12px;
+	}
 }
 
 @media(max-width:768px) {
