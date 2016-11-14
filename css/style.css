@@ -892,6 +892,9 @@ ul.simplefilter {
 }
 
 @media(max-width:414px) {
+	body {
+		width: 360px;
+	}
 	.headerImage {
 		width: 322.5px;
 	}
@@ -909,9 +912,10 @@ ul.simplefilter {
 	}
 }
 
+
 @media(max-width:324px) {
 	body {
-		width: 343px;
+		width: 324px;
 	}
 	.headerImage {
 		width: 322.5px;
@@ -2245,7 +2249,7 @@ form.contact_form {
 
 @media screen and (max-width: 414px) {
 	body {
-		width: 402px;
+		width: 414px;
 	}
 	.header img {
 		height: 250px;
@@ -2418,6 +2422,9 @@ form.contact_form {
 }
 
 @media screen and (max-width: 360px) {
+	body {
+		width: 360px;
+	}
 	.navigation {
 		margin-left: -15px;
 	}
@@ -2463,6 +2470,10 @@ form.contact_form {
 	.work-info h5.sch {
 		right: 18%;
 	}
+	.resp-tab-item span {
+		font-size: 11px;
+	}
+	
 }
 
 @media screen and (max-width: 320px) {
