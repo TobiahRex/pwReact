@@ -2428,6 +2428,9 @@ form.contact_form {
 	.navigation {
 		margin-left: -15px;
 	}
+	.agileabout-grid p {
+		font-size: 11px;
+	}
 	.agileabout-grid-1 h3 {
 		width: 34%;
 	}
@@ -2473,7 +2476,9 @@ form.contact_form {
 	.resp-tab-item span {
 		font-size: 11px;
 	}
-	
+	.w3lsstatsaits-info p {
+		font-size: 12px;
+	}
 }
 
 @media screen and (max-width: 320px) {
