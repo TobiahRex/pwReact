@@ -2479,6 +2479,16 @@ form.contact_form {
 	.w3lsstatsaits-info p {
 		font-size: 12px;
 	}
+	a.more_btn {
+		width: 360px;
+	}
+	.footerLogos {
+		margin: 30px 0px 30px 0px;
+		padding: 0px 40px 0px 40px;
+	}
+	#toTop {
+		margin-right: 0px;
+	}
 }
 
 @media screen and (max-width: 320px) {
