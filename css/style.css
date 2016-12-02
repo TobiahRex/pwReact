@@ -536,7 +536,7 @@ a:focus, a:hover {
 		-moz-transition: all 1s;
 		position: relative;
 		float: left;
-		left: 100%;
+		left: 95%;
 		top: -28px;
 		padding: 4px 10px 7px 10px;
 		background-color: #000;
